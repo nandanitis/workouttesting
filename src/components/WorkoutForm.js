@@ -78,7 +78,7 @@ const WorkoutForm = () => {
         value={reps} 
       />
 
-      <button>Add Workout</button>
+      <button id="submitform" class="submitform">Add Workout</button>
       
       {error && <div className="error">{error}</div>}
     </form>
