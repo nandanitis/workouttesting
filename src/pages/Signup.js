@@ -19,12 +19,16 @@ const Signup = () => {
       <label>Email address:</label>
       <input 
         type="email" 
+        id="signupUser"
+        className="signupUser"
         onChange={(e) => setEmail(e.target.value)} 
         value={email} 
       />
       <label>Password:</label>
       <input 
         type="password" 
+        id="signuppassword"
+        className="signuppassword"
         onChange={(e) => setPassword(e.target.value)} 
         value={password} 
       />

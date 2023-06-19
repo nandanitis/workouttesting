@@ -18,12 +18,16 @@ const Login = () => {
       
       <label>Email address:</label>
       <input 
+        id="loginUser"
+        className="loginUser"
         type="email" 
         onChange={(e) => setEmail(e.target.value)} 
         value={email} 
       />
       <label>Password:</label>
       <input 
+        id="loginPassword"
+        className="loginPassword"
         type="password" 
         onChange={(e) => setPassword(e.target.value)} 
         value={password} 
